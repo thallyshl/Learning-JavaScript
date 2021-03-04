@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Class about DOM</title>
+</head>
+<body>
+    <h1>Trying learn DOM</h1>
+    <p>result in this page.</p>
+    <div>Click me</div>
+    <script>
+       var p1 = window.document.getElementsByTagName('p')[0]
+       window.document.write('Esta escrito ' + p1.innerText)
+       p1.style.color = 'red'
+    </script>
+</body>
+</html>
